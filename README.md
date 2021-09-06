@@ -16,3 +16,15 @@ It contains :
            Add and remove replace a fragment
            Addtobackstack along with animation.
 # Happy Coding :D 
+
+<p>
+<img width="250" src="imgs/Screenshot_1630939940.png">
+
+<img width="250" src="imgs/Screenshot_1630939969.png">
+<img width="250" src="imgs/Screenshot_1630939977.png">
+<img width="250" src="imgs/Screenshot_1630939999.png">
+
+<img width="250" src="imgs/Screenshot_1630940013.png">
+<img width="250" src="imgs/Screenshot_1630940019.png">
+<img width="250" src="imgs/Screenshot_1630940029.png">
+</p>
