@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Simple Code</string>
+    <string name="name">Praveen Gali</string>
+    <string name="empty"></string>
+    <string name="welcome">Welcome %1$s</string>
+    <string name="tel">tel: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

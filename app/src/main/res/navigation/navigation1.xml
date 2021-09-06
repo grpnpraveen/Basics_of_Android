@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation1"
+    app:startDestination="@id/Home">
+    <fragment
+        android:id="@+id/Home"
+        android:name="com.example.myapplication3.Shopping_list_frag"
+        android:label="fragment_shopping_list_frag"
+        tools:layout="@layout/fragment_shopping_list_frag" >
+        <action
+            android:id="@+id/action_Home_to_detail"
+            app:destination="@id/detail" />
+    </fragment>
+    <fragment
+        android:id="@+id/detail"
+        android:name="com.example.myapplication3.Shopping_buy_frag"
+        android:label="fragment_shopping_buy_frag"
+        tools:layout="@layout/fragment_shopping_buy_frag" >
+        <action
+            android:id="@+id/action_detail_to_checkout"
+            app:destination="@id/checkout" />
+    </fragment>
+    <fragment
+        android:id="@+id/checkout"
+        android:name="com.example.myapplication3.Shopping_checkout_frag"
+        android:label="fragment_shopping_checkout_frag"
+        tools:layout="@layout/fragment_shopping_checkout_frag" >
+        <action
+            android:id="@+id/action_checkout_to_thanks"
+            app:destination="@id/thanks"
+            app:popUpTo="@id/detail"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/thanks"
+        android:name="com.example.myapplication3.Shopping_thanks_frag"
+        android:label="fragment_shopping_thanks_frag"
+        tools:layout="@layout/fragment_shopping_thanks_frag" >
+        <action
+            android:id="@+id/action_thanks_to_Home"
+            app:destination="@id/Home"
+            app:popUpTo="@id/Home"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
